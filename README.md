@@ -2,39 +2,40 @@
 
 Based off of Ippsecs Tmux video https://youtu.be/Lqehvpe_djs
 
-copy of Ippsecs .tmux.conf included in repo
+Copy of Ippsecs .tmux.conf included in repo
 
-# Tips Below
-parentheses mean you push the buttons at the same time
+## Tips Below
+Parentheses mean you push the buttons at the same time
 
-# Prefix key
+## Prefix Key
 Prefix key = ctrl + b (locally ctrl+a for nested sessions)
 
-# Copy and pasting
-edit mode = prefix + [
-copy in editmode = space + (arrow key to select) + enter
-paste = prefix + ]
-exit editmode = enter
+## Copy and Pasting
+Edit mode = prefix + [
+Copy in editmode = space + (arrow key to select) + enter
+Paste = prefix + ]
+Exit editmode = enter
 
-# logging Extension
-logging = prefix + (alt + shift + p)
-located here https://github.com/tmux-plugins/tmux-logging
+## Logging Extension
+Logging = prefix + (alt + shift + p)
+Located here https://github.com/tmux-plugins/tmux-logging
 
 ## Panelling
 Send to pane = prefix + s
 Join to pane = prefix + j
 
-split vertically = prefix + %
+Split vertically = prefix + %
 split horizontal = prefix + "
 
-switch pane = prefix + arrow key
-move pane left = prefix + {
-move pane right = prefix + }
-toggle zoom on pane = prefix + z
-resizes = (prefix + arrow key)
-cycle pane layout = prefix + space
+Switch pane = prefix + arrow key
+Move pane left = prefix + {
+Move pane right = prefix + }
+Toggle zoom on pane = prefix + z
+Resizes = (prefix + arrow key)
+Cycle pane layout = prefix + space
 
-show evertything tmux can do = prefix + ?
+## The most important one
+Show evertything tmux can do and the key binding to do it = prefix + ?
 
 
 
